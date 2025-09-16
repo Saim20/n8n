@@ -1,6 +1,3 @@
-# Environment files with sensitive data
-.env
-
 # Docker volumes (if locally mounted)
 data/
 postgres_data/
