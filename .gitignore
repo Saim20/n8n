@@ -1,0 +1,31 @@
+# Environment files with sensitive data
+.env
+
+# Docker volumes (if locally mounted)
+data/
+postgres_data/
+n8n_data/
+
+# Backup files
+*.sql
+backup/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
